@@ -9,4 +9,4 @@ RUN npm install -g serve
 
 RUN mkdir -p /home
 
-CMD ["serve", "-p", "$PORT", "$FOLDER_PATH"]
+CMD echo serve --port $PORT $FOLDER_PATH
