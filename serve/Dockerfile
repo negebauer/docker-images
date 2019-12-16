@@ -4,6 +4,7 @@ LABEL maintainer="https://github.com/negebauer"
 
 ENV FOLDER_PATH=/home
 ENV PORT=5000
+EXPOSE $PORT
 
 RUN npm install -g serve
 
