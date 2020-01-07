@@ -5,4 +5,5 @@ LABEL maintainer="https://github.com/negebauer"
 ENV BUNDLER_VERSION 2.0.2
 
 RUN sudo gem install bundler
-RUN bundle --version
+RUN sudo gem update --system
+RUN bundler --version
